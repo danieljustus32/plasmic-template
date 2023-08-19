@@ -1,0 +1,97 @@
+.tabs {
+  display: flex;
+}
+
+.tab {
+  background-color: #163632;
+  border-radius: 7px 7px 0 0;
+  border-color: #255c55;
+  color: white;
+  display: flex;
+  flex: 1;
+  font-family: inherit;
+  font-size: 16px;
+  justify-content: center;
+  transition: all 0.5s ease;
+  padding: 0.5rem 0;
+}
+
+.tab:hover {
+  background-color: #255c55;
+}
+
+.tab:active {
+}
+
+.pdfContainer {
+  background-color: #163632;
+  border: none;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: center;
+  min-height: 1000px;
+  padding: 20px 0;
+  -webkit-box-shadow: inset 10px 6px 5px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 10px 6px 5px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 10px 6px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.document {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.ctrlButton {
+  align-self: center;
+  border-radius: 5px;
+  background-color: #163632;
+  cursor: pointer;
+  display: flex;
+  filter: drop-shadow(7px 7px 5px #000);
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  max-height: 148px;
+  padding: 0.5rem 0.5rem;
+  transition: all 0.5s ease;
+}
+
+.ctrlButton:disabled {
+  cursor: initial;
+  opacity: 0.8;
+}
+
+.ctrlButton:hover {
+  transform: scale(1.05);
+}
+
+.ctrlButton:disabled:hover {
+  transform: none;
+}
+
+.downloadLink {
+  background-color: #163632;
+  border-radius: 10px;
+  color: #f2f5ea;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5px 20px 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  width: 50%;
+}
+
+.downloadLink:hover {
+  transform: scale(1.03);
+}
+
+.loaderContainer {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}

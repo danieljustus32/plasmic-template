@@ -1,0 +1,18 @@
+/* Chrome, Edge, and Safari scrollbar overrides */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #163632;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #a6a989;
+  border-radius: 14px;
+  border: 1px solid #163632;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #caccb8;
+}
